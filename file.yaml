@@ -1,0 +1,21 @@
+file_type: csv
+dataset_name: measures_v2
+file_name: measures_v2
+table_name: edsurv
+inbound_delimiter: ","
+outbound_delimiter: "|"
+skip_leading_rows: 1
+columns:
+    - u_q
+    - coolant
+    - stator_winding 
+    - u_d
+    - stator_tooth
+    - motor_speed
+    - i_d
+    - i_q 
+    - pm 
+    - stator_yoke
+    - ambient
+    - torque
+    - profile_id
